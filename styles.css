@@ -6,7 +6,18 @@
 body {
   background-color: black;
   color: white;
+  font-family: 'Open Sans', sans-serif;
 }
 canvas {
   display: block;
+}
+.gameOver {
+  padding-top: 150px;
+  font-size: 80px;
+  text-align: center;
+}
+.displayScore, .displayHighscore {
+  padding-top: 50px;
+  font-size: 50px;
+  text-align: center;
 }
